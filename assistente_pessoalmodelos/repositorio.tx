@@ -1,0 +1,15 @@
+assistente_pessoal/
+├── servidor/
+│   ├── app.py           # Servidor Flask com interface Tkinter
+│   ├── schema.sql        # Esquema do banco de dados SQLite
+│   └── models.py        # Modelo de aprendizado de máquina (opcional)
+├── visao_computacional/
+│   └── camera.py       # Script de visão computacional
+├── android/
+│   └── MainActivity.kt  # Aplicativo Android (Kotlin)
+├── modelos/
+│   ├── seu_modelo.h5     # Modelo treinado
+│   ├── label_encoders.pkl # Codificadores de rótulos
+│   └── scaler.pkl        # Scaler para normalização
+└── dados/
+    └── dados.csv          # Arquivo de dados (opcional)
